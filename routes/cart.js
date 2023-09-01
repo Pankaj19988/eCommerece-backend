@@ -2,7 +2,7 @@ const express = require("express");
 const Cart = require("../models/Cart");
 const router = express.Router();
 
-
+// Cart 
 // ADD cart item in database POST request " api/cart/add "
 
 router.post("/add", async (req, res) => {
